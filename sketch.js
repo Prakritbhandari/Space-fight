@@ -4,9 +4,9 @@ frameMode = "null"
 timer = 0;
 
 function preload(){
-  player_image = loadImage("../player.png");
-  battleShip_image = loadImage("../battleShip.png");
-  backgroundImage = loadImage("../background.jpg");
+  player_image = loadImage("player.png");
+  battleShip_image = loadImage("battleShip.png");
+  backgroundImage = loadImage("background.jpg");
 }
 
 function setup() {
