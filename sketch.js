@@ -58,7 +58,7 @@ function draw() {
     text("Click Anywhere to Play",displayWidth/2-100,displayHeight/2);
   }
 
-  if(mousePressedOver(clickToPlay)){
+  if(mousePressedOver(clickToPlay)&&gameState === "start"){
     gameState = "play";
   }
 
